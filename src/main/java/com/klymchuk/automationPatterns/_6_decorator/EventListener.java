@@ -11,6 +11,8 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
  * We need each time of some actions will make some activities (logging, time of execution so on)
  * We need to use come kind of Wrappers - Listeners work fine
  */
+
+//WebDriverEventListener is the best way to logging the our Events
 public class EventListener implements WebDriverEventListener {
 
     public void beforeAlertAccept(WebDriver webDriver) {
